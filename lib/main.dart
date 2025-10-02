@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_list/my_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const MyList(),
+      home: MyList(),
     );
   }
 }
